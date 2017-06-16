@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar-custom {
     min-height: 72px;
     max-height: 84px;
@@ -123,3 +124,36 @@
     display: inline-block;
     width: calc(100% - 60px);
 }
+=======
+.fa-custom
+{
+	color:#424242;
+}
+
+.banner-landing
+{
+	background-image: url(https://www.paypalobjects.com/web/res/eee/cd2eeb1f98f04a293851a58a332bb/images/landing-9ac13f.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+    
+
+}
+
+.banner-landing .text {
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+.banner-landing .text button {
+  
+  border-radius: 50px;
+  margin-top: 30px;
+  outline: none;
+}
+
+.banner-landing .text button:hover {
+  color: #0A5BAD;
+  outline: none;
+}
+>>>>>>> 5f4a5478fa82a591e85028f06ea3c1addd387f52
