@@ -1,3 +1,7 @@
+body {
+    font-family: PayPal Sans Big,sans-serif;
+}
+
 .navbar-custom {
     min-height: 72px;
     max-height: 84px;
@@ -13,9 +17,16 @@
     color: #fff;
 }
 
-.navbar-custom .btn-custom {
+.navbar-custom .btn-custom-no-bg {
     background-color: Transparent;
     border: 1px solid #fff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px; 
+    -moz-border-radius: 50px;
+    color: #fff;
+}
+
+#add-bottom .btn-custom {
     border-radius: 50px;
     -webkit-border-radius: 50px; 
     -moz-border-radius: 50px;
@@ -122,4 +133,20 @@
 .bullet-list-content {
     display: inline-block;
     width: calc(100% - 60px);
+}
+
+.margin-bottom {
+    margin-bottom: 15%;
+}
+
+.sub-footer {
+    color: #9da3a6;
+    letter-spacing: .05rem;
+    margin-top: 1rem;
+    padding-left: .65rem;
+}
+
+.sub-footer ul li {
+    display: inline-block;
+    vertical-align: top;
 }
