@@ -64,7 +64,7 @@ body {
     content: " ";
     display: inline-block;
     height: 100%;
-    width: 1%;
+    width: 100%;
     vertical-align: middle;
 }
 
