@@ -14,8 +14,10 @@ body {
 }
 
 .navbar-custom i {
-    vertical-align: middle;
     color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .navbar-custom .btn-custom-no-bg {
@@ -25,6 +27,7 @@ body {
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     color: #fff;
+    margin-top: 8px;
 }
 
 #add-bottom .btn-custom,
