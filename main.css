@@ -6,7 +6,7 @@ body {
     min-height: 72px;
     max-height: 84px;
     border-bottom: 1px solid #0070ba;
-    background-color: #0070ba; 
+    background-color: #0070ba;
 }
 
 .navbar-custom > .container-fluid {
@@ -21,25 +21,33 @@ body {
     background-color: Transparent;
     border: 1px solid #fff;
     border-radius: 50px;
-    -webkit-border-radius: 50px; 
+    -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     color: #fff;
 }
 
-#add-bottom .btn-custom {
+#add-bottom .btn-custom,
+#cover .radius {
     border-radius: 50px;
-    -webkit-border-radius: 50px; 
+    -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     color: #fff;
+}
+
+#cover .radius {
+    color: #2c2e2f!important;
 }
 
 .landing-banner {
-    background-image: url('http://via.placeholder.com/350x150'); 
+    background: url('https://c1.staticflickr.com/5/4309/36093739596_2ce5bfd1d1_k.jpg')no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
     background-color: gray;
-    height: 341px;
-    width: 100%;
     background-position: 20% 50%;
-    background-size: cover;
+    height: 341px;
+    width: 100vw;
     color: #fff;
     position: relative;
     padding: 100px 15px 100px;
@@ -56,7 +64,7 @@ body {
 
 .banner a {
     border-radius: 50px;
-    -webkit-border-radius: 50px; 
+    -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
 }
 
@@ -86,7 +94,7 @@ body {
     max-width: 424px;
     height: 53px;
     border-radius: 5px;
-    -webkit-border-radius: 5px; 
+    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     background-color: #f4f4f4;
     padding: 6px 14px 7px 53px;
@@ -97,8 +105,8 @@ body {
     display: block;
     background-color: #fff;
     border-radius: 5px;
-    -webkit-border-radius: 5px; 
-    -moz-border-radius: 5px;    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     width: 100%;
     height: 40px;
     font-size: 12px;
@@ -133,6 +141,12 @@ body {
 .bullet-list-content {
     display: inline-block;
     width: calc(100% - 60px);
+}
+
+.columImage {
+    width: 100%;
+    padding-bottom: 77.9%;
+    background-position: 50%;
 }
 
 .margin-bottom {
