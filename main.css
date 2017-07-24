@@ -165,6 +165,18 @@ body {
 .pull-right a,
 .pull-left a {
   color: #9da3a6;
+  padding-right: 15px;
+}
+
+.pull-left {
+  text-transform: uppercase;
+}
+
+.copyright:after {
+  content: "|";
+  display: inline-block;
+  letter-spacing: .05rem;
+  padding: 0 15px 0 45px;
 }
 
 .sub-footer {
