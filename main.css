@@ -14,6 +14,7 @@ body {
 }
 
 .navbar-custom i {
+    vertical-align: middle;
     color: #fff;
 }
 
@@ -43,7 +44,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;;
+    background-size: cover;
     background-color: gray;
     background-position: 20% 50%;
     height: 341px;
@@ -143,14 +144,27 @@ body {
     width: calc(100% - 60px);
 }
 
-.columImage {
+.colum-image {
     width: 100%;
     padding-bottom: 77.9%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-position: 50%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border: 1px solid #eee;
 }
 
 .margin-bottom {
     margin-bottom: 15%;
+}
+
+.pull-right a,
+.pull-left a {
+  color: #9da3a6;
 }
 
 .sub-footer {
