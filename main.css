@@ -14,8 +14,10 @@ body {
 }
 
 .navbar-custom i {
-    vertical-align: middle;
     color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .navbar-custom .btn-custom-no-bg {
@@ -25,6 +27,7 @@ body {
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     color: #fff;
+    margin-top: 8px;
 }
 
 #add-bottom .btn-custom,
@@ -70,16 +73,26 @@ body {
 }
 
 .landing-banner-content {
-    content: " ";
     display: inline-block;
     height: 100%;
     width: 100%;
     vertical-align: middle;
 }
 
+.landing-banner-content h1 {
+    font-weight: inherit;
+}
+
+
 .landing-banner-content p {
     display: inline-block;
     vertical-align: middle;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.landing-banner-content .radius {
+    text-transform: inherit;
 }
 
 #examples {
@@ -165,9 +178,6 @@ body {
 .pull-left a {
   color: #9da3a6;
   padding-right: 15px;
-}
-
-.pull-left {
   text-transform: uppercase;
 }
 
